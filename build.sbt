@@ -23,7 +23,6 @@ libraryDependencies ++= Seq(
 )
 
 pomExtra := {
-  <url>http://github.com/FranklinChen/java-tau</url>
   <licenses>
     <license>
       <name>Apache 2</name>
