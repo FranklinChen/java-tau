@@ -6,10 +6,7 @@ import static com.franklinchen.math.Constants.τ;
 import static java.lang.Math.PI;
 
 import org.junit.Test;
-import org.junit.runner.RunWith;
 import static org.junit.Assert.assertEquals;
-
-import org.junit.Test;
 
 public class ConstantsTest {
     private final double DELTA = 0.00000000000000000000001;

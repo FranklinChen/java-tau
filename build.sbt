@@ -18,11 +18,6 @@ description := "Provide the important mathematical constant tau"
 
 version := "1.0.0"
 
-javacOptions ++= Seq(
-  "-source", "1.5",
-  "-target", "1.5"
-)
-
 libraryDependencies ++= Seq(
   "com.novocode" % "junit-interface" % "0.10" % "test"
 )
@@ -48,3 +43,5 @@ pomExtra := {
     </developer>
   </developers>
 }
+
+javacOptions in doc ++= Seq("-charset", "UTF-8")
